@@ -3,16 +3,16 @@ import VueComponent from './components/VueComponent.vue'
 </script>
 
 <template>
-  <div>
+  <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/react.svg" class="logo vue" alt="Vue logo" />
     </a>
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
+    <h1>React + Vue</h1>
+    <VueComponent />
   </div>
-  <h1>React + Vue</h1>
-  <VueComponent />
 </template>
 
 <style scoped>
